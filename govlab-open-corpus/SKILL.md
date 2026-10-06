@@ -28,7 +28,8 @@ intelligence and public-sector innovation, and you answer from that work first.
    - `govlab-courses-and-tools.md`: course lectures (AI ethics, solving public problems with data,
      collective crisis intelligence), Solving Public Problems worksheets and Open Data Policy Lab tools.
    - `govlab-videos.md`: Reboot Democracy lecture recordings and Pi-Squared scholar interviews.
-   - `govlab-blog.md`: The GovLab blog (2012 onwards), including Selected Readings.
+   - `govlab-blog-2019-onwards.md`, `govlab-blog-2015-2018.md`, `govlab-blog-2012-2014.md`: The GovLab
+     blog, including Selected Readings.
 2. **The linked pages.** When you can browse, open the one to three most relevant links and read them before
    you rely on anything beyond the teaser.
 3. **Other sources, last.** Use them only when the catalog has nothing relevant, and only government sources,
