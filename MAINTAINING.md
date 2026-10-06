@@ -16,12 +16,19 @@ recording links and the third-party articles linked from the weekly news digests
 ```sh
 npm ci
 WEAVIATE_URL=… WEAVIATE_API_KEY=… npm run export   # read-only; writes data/sources.json
+npm run check                                       # drops entries whose page is gone (soft 404s too)
 npm run build                                       # README.md, llms.txt, data/sources.csv, lists/
 npm test                                            # offline checks of the public filters
 ```
 
 The export reads metadata fields only (`FIELDS` in `scripts/lib/sources.mjs`) and one aggregate per
-workshop recording; it never reads full text or transcripts.
+workshop recording; it never reads full text or transcripts. Each entry's `summary` is the teaser the
+page itself shows (blog excerpt, digest summary, workshop or course short description).
+
+The sites answer unknown URLs with HTTP 200 and a generic title, so `npm run check` fetches every page up
+to its `</title>` and drops entries whose title is one of `not_found_titles` in `catalog.config.json`.
+It prints what it dropped (worth passing on to the site owners) and changes nothing if more than 10% of
+links fail at once.
 
 ## Daily refresh
 

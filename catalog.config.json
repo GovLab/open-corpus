@@ -1,8 +1,21 @@
 {
   "title": "Open Corpus: Reboot Democracy and InnovateUS",
   "intro": "An open, machine-readable index of content from Reboot Democracy (rebootdemocracy.ai) and InnovateUS (innovate-us.org): blog posts, weekly news digests, workshops, workshop recordings and courses. Every entry links to the original page.",
-  "about": "This catalog is generated from the search index behind rebootdemocracy.ai and innovate-us.org (`scripts/export-urls.mjs`, then `scripts/build-readme.mjs`). It lists links and metadata only; please cite the linked pages. Spotted an error? Open an issue.",
-  "programs": ["Reboot Democracy", "InnovateUS"],
-  "allowed_hosts": ["rebootdemocracy.ai", "innovate-us.org", "youtube.com"],
-  "latest_count": 15
+  "about": "This catalog is generated from the search index behind rebootdemocracy.ai and innovate-us.org, and every link is checked before it is listed (`scripts/export-urls.mjs`, `scripts/check-links.mjs`, then `scripts/build-readme.mjs`). It holds links, short teasers taken from the pages themselves, and metadata; please cite the linked pages. Spotted an error? Open an issue.",
+  "programs": [
+    "Reboot Democracy",
+    "InnovateUS"
+  ],
+  "allowed_hosts": [
+    "rebootdemocracy.ai",
+    "innovate-us.org",
+    "youtube.com"
+  ],
+  "latest_count": 15,
+  "not_found_titles": [
+    "RebootDemocracy.AI",
+    "News That Caught Our Eye - Reboot Democracy",
+    "Workshop",
+    "InnovateUS Course Not Found"
+  ]
 }

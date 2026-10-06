@@ -10,11 +10,13 @@
 
 // Metadata fields requested per collection. Anything not listed is never read.
 export const FIELDS = {
-  RebootBlogPostChunk: ['directusId', 'slug', 'title', 'date', 'authors', 'tags', 'status', 'fullUrl'],
-  RebootWeeklyNewsItem: ['edition', 'title', 'date'],
-  InnovateUSWorkshop: ['directusId', 'slug', 'title', 'date', 'language', 'youtubeVideoId', 'seriesTitle', 'instructorNames', 'category', 'notOpenToPublic'],
-  InnovateUSCourse: ['directusId', 'slug', 'title', 'language', 'status', 'courseLive'],
+  RebootBlogPostChunk: ['directusId', 'slug', 'title', 'date', 'authors', 'tags', 'status', 'fullUrl', 'excerpt', 'oneLine'],
+  RebootWeeklyNewsItem: ['edition', 'title', 'date', 'summary'],
+  InnovateUSWorkshop: ['directusId', 'slug', 'title', 'date', 'language', 'youtubeVideoId', 'seriesTitle', 'instructorNames', 'category', 'notOpenToPublic', 'shortDescription', 'descriptionPlain'],
+  InnovateUSCourse: ['directusId', 'slug', 'title', 'language', 'status', 'courseLive', 'shortDescription', 'courseLede', 'description'],
 };
+// The blurb on each entry is the teaser the site itself shows: blog excerpt
+// (or one-liner), weekly-digest summary, workshop/course short description.
 // Workshop_transcripts is read as one aggregate per video (no chunk rows).
 export const TRANSCRIPT_GROUP_FIELDS = { text: ['title', 'url', 'date'], number: ['end_seconds'], integer: ['directus_id'] };
 
@@ -42,6 +44,35 @@ const blank = (v) => v === undefined || v === null || v === '';
 const arr = (v) => (Array.isArray(v) ? v : blank(v) ? [] : [v]).filter((x) => !blank(x)).map((x) => String(x).trim()).filter(Boolean);
 const uniq = (xs) => [...new Set(xs)];
 const first = (rows, f) => rows.map(f).find((v) => !blank(v));
+
+const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', rsquo: '\u2019', lsquo: '\u2018', rdquo: '\u201d', ldquo: '\u201c', mdash: '\u2014', ndash: '\u2013', hellip: '\u2026' };
+
+/** Plain-text teaser: HTML stripped, whitespace collapsed, cut at a sentence end (or word) by `max` chars. */
+export function blurb(raw, max = 300) {
+  if (blank(raw)) return null;
+  const s = String(raw)
+    .replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&([a-z]+);/gi, (m, name) => ENTITIES[name.toLowerCase()] ?? m)
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (!s) return null;
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max + 1);
+  const sentence = cut.match(/^(.{80,}[.!?])\s/);
+  return sentence ? sentence[1] : `${cut.slice(0, max).replace(/\s+\S*$/, '').replace(/[,;:\-\u2013\u2014]$/, '')}\u2026`;
+}
+
+// Headings that sometimes sit in a description field instead of a teaser.
+const NOT_A_BLURB = /^(about (the|this) (course|workshop|session)|overview|description|summary)\.?$/i;
+
+/** First candidate that reads like a teaser (>= 40 chars, not a heading); else the longest one. */
+export function pickBlurb(...candidates) {
+  const all = candidates.map((c) => blurb(c)).filter((b) => b && !NOT_A_BLURB.test(b));
+  return all.find((b) => b.length >= 40) ?? all.sort((a, b) => b.length - a.length)[0] ?? null;
+}
 
 export function isoDate(v) {
   if (blank(v)) return null;
@@ -105,6 +136,7 @@ function rebootBlog(rows, drop) {
       title: first(g, (r) => r.title),
       date: isoDate(first(g, (r) => r.date)),
       url: first(g, (r) => r.fullUrl) || (slug ? `https://rebootdemocracy.ai/blog/${slug}` : null),
+      summary: pickBlurb(first(g, (r) => r.excerpt), first(g, (r) => r.oneLine)),
       authors: uniq(g.flatMap((r) => arr(r.authors))),
       topics: uniq(g.flatMap((r) => arr(r.tags))),
     });
@@ -124,6 +156,7 @@ function rebootDigests(rows) {
       title: first(g, (r) => r.title),
       date: isoDate(first(g, (r) => r.date)),
       url: `https://rebootdemocracy.ai/newsthatcaughtoureye/${ed}`,
+      summary: pickBlurb(first(g, (r) => r.summary)),
     });
   }
   return out;
@@ -166,6 +199,7 @@ function innovateUS(workshops, transcripts, drop) {
       title: en.title || first(g, (r) => r.title),
       date: isoDate(en.date || first(g, (r) => r.date)),
       url: `https://innovate-us.org/${slug}`,
+      summary: pickBlurb(en.shortDescription, en.descriptionPlain, first(g, (r) => r.shortDescription)),
       authors: arr(en.instructorNames),
       series: blank(en.seriesTitle) ? null : en.seriesTitle,
       topics: arr(en.category),
@@ -204,6 +238,7 @@ function innovateUSCourses(rows, drop) {
       title: en.title,
       date: null,
       url: `https://innovate-us.org/course/${en.slug}`,
+      summary: pickBlurb(en.shortDescription, en.courseLede, en.description),
       languages: uniq(live.map((r) => r.language).filter((l) => !blank(l))).sort(),
     });
   }

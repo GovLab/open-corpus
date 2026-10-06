@@ -46,6 +46,8 @@ jobs:
           WEAVIATE_API_KEY: ${{ secrets.WEAVIATE_API_KEY }}
         run: node scripts/export-urls.mjs
       - if: steps.check.outputs.enabled == 'true'
+        run: node scripts/check-links.mjs
+      - if: steps.check.outputs.enabled == 'true'
         run: node scripts/build-readme.mjs
       - if: steps.check.outputs.enabled == 'true'
         run: |

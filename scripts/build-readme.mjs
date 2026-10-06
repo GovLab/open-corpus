@@ -46,7 +46,8 @@ function line(r) {
   if (r.series) bits.push(md(r.series));
   if (r.video_url && r.video_url !== r.url) bits.push(`[recording](${r.video_url})`);
   if (r.duration_min) bits.push(`${r.duration_min} min`);
-  return `- ${bits.join(' · ')}`;
+  // two trailing spaces = hard line break, so the blurb sits under its link
+  return r.summary ? `- ${bits.join(' · ')}  \n  ${md(r.summary)}` : `- ${bits.join(' · ')}`;
 }
 
 // lists/*.md (regenerated from scratch so removed groups disappear)
@@ -64,7 +65,7 @@ for (const g of groups) {
 }
 
 // data/sources.csv
-const COLS = ['id', 'program', 'type', 'title', 'date', 'url', 'authors', 'topics', 'series', 'languages', 'video_url', 'duration_min'];
+const COLS = ['id', 'program', 'type', 'title', 'date', 'url', 'summary', 'authors', 'topics', 'series', 'languages', 'video_url', 'duration_min'];
 const cell = (v) => {
   const s = Array.isArray(v) ? v.join('; ') : v === undefined || v === null ? '' : String(v);
   return /[",\n\r]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
@@ -96,7 +97,7 @@ fs.writeFileSync(root('README.md'), [
   '',
   '## Record fields',
   '',
-  'Every entry in `data/sources.json` has `id`, `program`, `type`, `title` and `url`, and where known `date`, `authors`, `topics`, `series`, `languages`, `video_url` (the workshop recording) and `duration_min`.',
+  'Every entry in `data/sources.json` has `id`, `program`, `type`, `title` and `url`, and where known `date`, `summary` (the teaser shown on the page itself), `authors`, `topics`, `series`, `languages`, `video_url` (the workshop recording) and `duration_min`.',
   '',
   '## About this catalog',
   '',

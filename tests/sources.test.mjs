@@ -1,24 +1,25 @@
 // Offline tests for the public filters (synthetic fixtures, no network).
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { FIELDS, TRANSCRIPT_GROUP_FIELDS, buildCatalog, cleanUrl, isAllowedHost, isoDate } from '../scripts/lib/sources.mjs';
+import { classify } from '../scripts/check-links.mjs';
+import { FIELDS, TRANSCRIPT_GROUP_FIELDS, blurb, buildCatalog, cleanUrl, isAllowedHost, isoDate, pickBlurb } from '../scripts/lib/sources.mjs';
 
 const raw = {
   RebootBlogPostChunk: [
-    { directusId: 1, slug: 'post-one', title: 'Post one', date: '2026-01-02T12:00:00Z', authors: ['A. Author'], tags: ['AI Tools'], status: 'published' },
+    { directusId: 1, slug: 'post-one', title: 'Post one', date: '2026-01-02T12:00:00Z', authors: ['A. Author'], tags: ['AI Tools'], status: 'published', excerpt: '<p>How &amp; why cities use AI.</p>' },
     { directusId: 1, slug: 'post-one', title: 'Post one', fullUrl: 'https://rebootdemocracy.ai/blog/post-one' },
     { directusId: 2, slug: 'draft-post', title: 'Draft', status: 'draft' },
     { directusId: 3, slug: 'legacy-post', title: 'Legacy post' },
     { directusId: 4, slug: 'x', title: 'Points elsewhere', status: 'published', fullUrl: 'https://mailchi.mp/abc/def?e=123' },
   ],
   RebootWeeklyNewsItem: [
-    { edition: '87', title: 'Edition 87', date: '2025-05-01T09:00:00Z' },
+    { edition: '87', title: 'Edition 87', date: '2025-05-01T09:00:00Z', summary: 'In the news this week: a county AI plan.' },
     { edition: '87', title: 'Edition 87' },
     { edition: 'draft', title: 'Not an edition' },
   ],
   InnovateUSWorkshop: [
-    { directusId: 10, slug: 'open-ws', title: 'Open workshop', date: '2025-03-04T19:00:00Z', language: 'en-US', youtubeVideoId: 'yt10', instructorNames: ['I. Structor'], category: 'Evaluation', seriesTitle: 'AI series' },
-    { directusId: 10, slug: 'open-ws', title: 'Atelier ouvert', language: 'fr-FR' },
+    { directusId: 10, slug: 'open-ws', title: 'Open workshop', date: '2025-03-04T19:00:00Z', language: 'en-US', youtubeVideoId: 'yt10', instructorNames: ['I. Structor'], category: 'Evaluation', seriesTitle: 'AI series', shortDescription: 'Learn to evaluate programs.' },
+    { directusId: 10, slug: 'open-ws', title: 'Atelier ouvert', language: 'fr-FR', shortDescription: 'Apprenez.' },
     { directusId: 11, slug: 'closed-ws', title: 'Closed workshop', language: 'en-US', notOpenToPublic: true, youtubeVideoId: 'yt11' },
   ],
   Workshop_transcripts: [
@@ -27,7 +28,7 @@ const raw = {
     { video_id: 'ytX', title: 'Older recording', date: '2024-02-03', url: 'https://www.youtube.com/watch?v=ytX', end_seconds: 600 },
   ],
   InnovateUSCourse: [
-    { directusId: 20, slug: 'live-course', title: 'Live course', language: 'en-US', status: 'published' },
+    { directusId: 20, slug: 'live-course', title: 'Live course', language: 'en-US', status: 'published', shortDescription: 'About the course', courseLede: 'A self-paced course.' },
     { directusId: 20, slug: 'live-course', title: 'Curso', language: 'es-ES', status: 'published' },
     { directusId: 21, slug: 'draft-course', title: 'Draft course', language: 'en-US', status: 'draft' },
   ],
@@ -40,9 +41,11 @@ const links = records.flatMap((r) => [r.url, r.video_url].filter(Boolean));
 test('reads only metadata from Reboot and InnovateUS collections', () => {
   assert.deepEqual(Object.keys(FIELDS).sort(), ['InnovateUSCourse', 'InnovateUSWorkshop', 'RebootBlogPostChunk', 'RebootWeeklyNewsItem']);
   const requested = [...Object.values(FIELDS).flat(), ...Object.values(TRANSCRIPT_GROUP_FIELDS).flat()];
-  for (const f of ['recordingLink', 'instructorBios', 'instructorHeadshotIds', 'moderatorBios', 'content', 'contentPlain', 'text', 'summary', 'itemUrl', 'searchText', 'description']) {
+  for (const f of ['recordingLink', 'instructorBios', 'instructorHeadshotIds', 'moderatorBios', 'moderatorHeadshotIds', 'content', 'contentPlain', 'text', 'itemUrl', 'itemDescription', 'searchText', 'zoomEventsSessionId']) {
     assert.ok(!requested.includes(f), `${f} must not be requested`);
   }
+  // transcripts: never chunk text or chunk summaries
+  assert.ok(!Object.values(TRANSCRIPT_GROUP_FIELDS).flat().some((f) => ['text', 'summary', 'keywords'].includes(f)));
 });
 
 test('every link points to rebootdemocracy.ai, innovate-us.org or an InnovateUS recording', () => {
@@ -83,6 +86,29 @@ test('one digest per numbered edition', () => {
   assert.equal(records.filter((r) => r.type === 'news-digest').length, 1);
 });
 
+test('each entry carries the teaser the page itself shows', () => {
+  assert.equal(byUrl['https://rebootdemocracy.ai/blog/post-one'].summary, 'How & why cities use AI.');
+  assert.equal(byUrl['https://rebootdemocracy.ai/newsthatcaughtoureye/87'].summary, 'In the news this week: a county AI plan.');
+  assert.equal(byUrl['https://innovate-us.org/open-ws'].summary, 'Learn to evaluate programs.');
+  assert.equal(byUrl['https://innovate-us.org/course/live-course'].summary, 'A self-paced course.');
+  assert.equal(byUrl['https://rebootdemocracy.ai/blog/legacy-post'].summary, undefined);
+});
+
+test('blurb', () => {
+  assert.equal(blurb('<p>Hi&nbsp;there &#8217;x&#8217;</p>'), 'Hi there \u2019x\u2019');
+  const long = `${'A sentence that is long enough to count here. '.repeat(10)}`;
+  const b = blurb(long);
+  assert.ok(b.length <= 300 && b.endsWith('.'));
+  assert.ok(blurb('word '.repeat(100)).endsWith('\u2026'));
+  assert.equal(blurb('   '), null);
+});
+
+test('pickBlurb skips headings and prefers a real teaser', () => {
+  assert.equal(pickBlurb('About the course', 'Short.', 'A longer description that reads like a proper teaser.'), 'A longer description that reads like a proper teaser.');
+  assert.equal(pickBlurb('About the course', 'Short.'), 'Short.');
+  assert.equal(pickBlurb('', null), null);
+});
+
 test('helpers', () => {
   assert.equal(cleanUrl('https://rebootdemocracy.ai/blog/a?utm_source=x&e=1'), 'https://rebootdemocracy.ai/blog/a');
   assert.equal(cleanUrl('not a url'), null);
@@ -96,4 +122,12 @@ test('helpers', () => {
 test('deterministic order and output', () => {
   assert.deepEqual(buildCatalog(raw).records, records);
   assert.deepEqual(records.map((r) => r.type), ['blog-post', 'blog-post', 'news-digest', 'workshop', 'workshop-video', 'course']);
+});
+
+test('link check: soft 404s count as gone', () => {
+  const nf = new Set(['Workshop', 'InnovateUS Course Not Found']);
+  assert.equal(classify({ status: 200, title: 'Try Before and After You Buy' }, nf), 'ok');
+  assert.equal(classify({ status: 200, title: 'InnovateUS Course Not Found' }, nf), 'gone');
+  assert.equal(classify({ status: 200, title: null }, nf), 'gone');
+  assert.equal(classify({ status: 404 }, nf), 'gone');
 });
