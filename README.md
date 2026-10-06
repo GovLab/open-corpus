@@ -1,6 +1,6 @@
 # GovLab Open Corpus skill
 
-A skill for AI assistants that answers questions about AI, democracy and public-sector innovation from what Reboot Democracy (rebootdemocracy.ai) and InnovateUS (innovate-us.org) have published, and cites the original pages.
+A skill for AI assistants that answers questions about AI, democracy, public-sector innovation, data and collective intelligence from what The GovLab, Reboot Democracy (rebootdemocracy.ai) and InnovateUS (innovate-us.org) have published, and cites the original pages.
 
 **Download:** [govlab-open-corpus.zip](govlab-open-corpus.zip)
 
@@ -15,9 +15,17 @@ A skill for AI assistants that answers questions about AI, democracy and public-
 
 | Source | Entries | Dates | File |
 |---|---:|---|---|
-| Reboot Democracy blog posts | 347 | 2023-06 – 2026-10 | [blog-posts.md](govlab-open-corpus/references/blog-posts.md) |
-| Reboot Democracy weekly news digests | 115 | 2025-04 – 2026-09 | [news-digests.md](govlab-open-corpus/references/news-digests.md) |
-| InnovateUS workshops | 368 (287 with recordings) | 2021-12 – 2026-12 | [workshops.md](govlab-open-corpus/references/workshops.md) |
-| InnovateUS courses | 8 |  | [courses.md](govlab-open-corpus/references/courses.md) |
+| Reboot Democracy blog posts | 357 | 2023-06 – 2026-10 | [blog-posts.md](govlab-open-corpus/references/blog-posts.md) |
+| Reboot Democracy weekly news digests | 115 | 2024-01 – 2026-09 | [news-digests.md](govlab-open-corpus/references/news-digests.md) |
+| InnovateUS workshops | 370 (288 with recordings) | 2021-12 – 2026-12 | [workshops.md](govlab-open-corpus/references/workshops.md) |
+| InnovateUS courses | 10 |  | [courses.md](govlab-open-corpus/references/courses.md) |
+| InnovateUS news, research and resources | 55 | 2023-06 – 2026-09 | [innovateus-articles.md](govlab-open-corpus/references/innovateus-articles.md) |
+| GovLab case studies | 346 | 2016-01 – 2022-11 | [govlab-case-studies.md](govlab-open-corpus/references/govlab-case-studies.md) |
+| GovLab publications and reports | 89 | 2012-12 – 2026-04 | [govlab-publications.md](govlab-open-corpus/references/govlab-publications.md) |
+| GovLab and Burnes Center projects and initiatives | 176 |  | [govlab-projects.md](govlab-open-corpus/references/govlab-projects.md) |
+| GovLab Smarter Crowdsourcing and City Challenges | 53 | 2016-08 – 2023-08 | [govlab-crowdsourcing.md](govlab-open-corpus/references/govlab-crowdsourcing.md) |
+| GovLab courses, lectures, worksheets and tools | 161 (63 with recordings) | 2017-10 – 2020-06 | [govlab-courses-and-tools.md](govlab-open-corpus/references/govlab-courses-and-tools.md) |
+| GovLab and Burnes Center lectures and interviews | 170 (134 with recordings) | 2018-09 – 2026-08 | [govlab-videos.md](govlab-open-corpus/references/govlab-videos.md) |
+| GovLab blog posts | 844 | 2012-09 – 2026-09 | [govlab-blog.md](govlab-open-corpus/references/govlab-blog.md) |
 
-Every entry links to its page and carries the teaser shown on that page; links are checked before each update.
+Every entry links to its page and carries a short teaser, usually the one shown on that page. Reboot Democracy and InnovateUS entries update automatically, within the hour, when new articles, workshops and courses are published.
