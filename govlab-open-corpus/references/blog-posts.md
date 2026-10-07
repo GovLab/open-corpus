@@ -2,7 +2,7 @@
 
 357 entries, newest first. One entry per line: date · title and link · authors · teaser.
 
-- 2026-10-06 · [How A.I. Can Boost Democracy](https://rebootdemocracy.ai/blog/nyt-opinion-ai-democracy) · Beth Simone Noveck · In a New York Times guest essay, Beth Simone Noveck makes the case for putting A.I. behind every public servant.
+- 2026-10-06 · [How A.I. Can Be Good for Democracy](https://rebootdemocracy.ai/blog/nyt-opinion-ai-democracy) · Beth Simone Noveck · In a New York Times guest essay, Beth Simone Noveck makes the case for putting A.I. behind every public servant.
 - 2026-10-05 · [Project Spotlight: Engaged California — Wildfire Recovery Action Planning](https://rebootdemocracy.ai/blog/project-spotlight-engaged-california) · Jeffery Marino · After the 2025 Los Angeles wildfires, California's Office of Data and Innovation used Engaged California to gather more than 1,300 resident comments. AI helped turn that input into 19 policy options, which residents then deliberated over and ranked.
 - 2026-09-30 · [The Halitosis of Our Times](https://rebootdemocracy.ai/blog/the-halitosis-of-our-times) · Anirudh Dinesh · The Hugging Face incident wasn't a rogue AI escaping its sandbox. It was a chain of poor human decisions. We need to stop talking about AI like mythology and start treating it like engineering.
 - 2026-09-28 · [The $170 billion lesson data center developers keep learning the hard way](https://rebootdemocracy.ai/blog/the-170-billion-lesson-data-center) · Dr. Deborah Stine, Beth Simone Noveck · Governors from Healey to Shapiro now say data centers need local buy-in, but they haven't said what a community "yes" actually looks like.
