@@ -2,7 +2,7 @@
 
 A skill for AI assistants that answers questions about AI, democracy, public-sector innovation, data and collective intelligence from what The GovLab, Reboot Democracy (rebootdemocracy.ai) and InnovateUS (innovate-us.org) have published, and cites the original pages.
 
-**Download:** [govlab-open-corpus.zip](govlab-open-corpus.zip)
+**Download:** [govlab-open-corpus.zip](https://github.com/GovLab/open-corpus/raw/main/govlab-open-corpus.zip)
 
 ## Add it to your assistant
 
