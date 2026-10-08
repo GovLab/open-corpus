@@ -1,7 +1,8 @@
 # Reboot Democracy: weekly news digests
 
-115 entries, newest first. One entry per line: date · title and link · teaser.
+116 entries, newest first. One entry per line: date · title and link · teaser.
 
+- 2026-10-08 · [Reboot Weekly: Can A.I. Be Good for Democracy?](https://rebootdemocracy.ai/newsthatcaughtoureye/116) · New Jersey’s AI tool reached 106,000 more eligible children for summer food benefits, matching records across programs so no family had to fill out a form.
 - 2026-09-28 · [Reboot Weekly: 46 Blocked Data Centers, NYC's AI Report, and Anthropic's Watchlist](https://rebootdemocracy.ai/newsthatcaughtoureye/115) · At least 46 AI data center projects — more than $170 billion in announced investment — have been blocked, withdrawn, or stalled since 2024 following community opposition.
 - 2026-07-09 · [Reboot Weekly: Mississippi's Framework Test, What Wars Are Fought Over, and Building UX Capacity](https://rebootdemocracy.ai/newsthatcaughtoureye/114) · Mississippi has a statewide AI framework, but Dr. Kollin Napier argues that the real test starts the next day.
 - 2026-06-25 · [Reboot Weekly: 85% Cloud Lock-In, an AI Coach for Public Servants, and Why AI Shouldn't Vote](https://rebootdemocracy.ai/newsthatcaughtoureye/113) · Amazon, Microsoft, and Google control 85% of Canada's cloud market. In a new Reboot Democracy piece, David Eaves and Curtis McCord argue this concentration is a democracy problem, not just a competition one, because public institutions lose leverage over the infrastructure they depend on.
