@@ -1,6 +1,6 @@
 # GovLab: publications and reports
 
-89 entries, newest first. One entry per line: date · title and link · source · authors · teaser.
+90 entries, newest first. One entry per line: date · title and link · source · authors · teaser.
 
 - 2026-04-10 · [AI for Impact: What We Have Built](https://directus.theburnescenter.org/assets/5dcbc016-0e64-4a6d-82e2-a2b2796ff07f) · Burnes Center for Social Change · Report on the AI tools Northeastern students have built with government partners in the AI for Impact programme.
 - 2026-03-23 · [Data Governance Innovations: Emerging Practices and Trends Across the Data Lifecycle](https://tools.opendatapolicylab.org/files/data-governance-innovation-report.pdf) · Stefaan Verhulst, Begoña G. Otero · This primer is a companion to recently published resource: What Is Data Governance? 30 Questions and Answers.
@@ -76,7 +76,7 @@
 - 2016-08-31 · [Innovations in Grantmaking Report](https://www.thegovlab.org/static/files/publications/innovgrantmaking.pdf) · By Beth Simone Noveck, Andrew Young, Andrew Miller
 - 2016-07-31 · [Encouraging and Sustaining Innovation in Government](https://www.thegovlab.org/static/files/publications/encouragingandsustaining.pdf) · By Beth Simone Noveck, Stefaan Verhulst
 - 2016-05-31 · [Mapping and Comparing Responsible Data Approaches](https://www.thegovlab.org/static/files/publications/ocha.pdf) · By Jos Berens, Ulrich Mans, Stefaan Verhulst
-- 2016-04-30 · [Building Data Responsibility into Humanitarian Action](https://www.thegovlab.org/static/files/publications/TB18_Data Responsibility_Online.pdf) · By Nathaniel Raymond, Ziad Al Achkar, Stefaan Verhulst, Jos Berens. Edited by Lilian Barajas et al.
+- 2016-04-30 · [Building Data Responsibility into Humanitarian Action](https://www.thegovlab.org/static/files/publications/TB18_Data%20Responsibility_Online.pdf) · By Nathaniel Raymond, Ziad Al Achkar, Stefaan Verhulst, Jos Berens. Edited by Lilian Barajas et al.
 - 2016-02-29 · [Open Data Impact: When Demand and Supply Meet](https://www.thegovlab.org/static/files/publications/open-data-impact-key-findings.pdf) · By Stefaan Verhulst, Andrew Young · Key Findings of the Open Data Impact Case Studies
 - 2016-01-31 · [The Smarter State Case Studies](https://www.thegovlab.org/smarterstate) · By Beth Simone Noveck, Andrew Young, Maria Paz Hermosilla, Anirudh Dinesh
 - 2015-03-31 · [Open Data: A Twenty-First-Century Asset for Small and Medium-Sized Enterprises](https://www.thegovlab.org/static/files/publications/OpenData-and-SME-Final-Aug2015.pdf) · By Stefaan Verhulst, Robyn Caplan
@@ -86,6 +86,7 @@
 - 2013-09-30 · [ICANN Primer](https://www.thegovlab.org/static/files/publications/icann-primer-the-govlab.pdf) · By GovLab Research · Primer on the Internet Corporation for Assigned Names and Numbers (ICANN)
 - 2013-09-30 · [Understanding the Technical and Business Functions of the Internet Corporation for Assigned Names and Numbers (ICANN)](https://www.thegovlab.org/static/files/publications/ICANN-tech-backgrounder.FINAL_.pdf) · By GovLab Research · Understanding the Technical and Business Functions of the Internet Corporation for Assigned Names and Numbers (ICANN)
 - 2013-08-31 · [Smart Cities, Smart Citizens](https://www.thegovlab.org/static/files/publications/icma-talk-transcript-4.pdf) · By Beth Noveck · A Presentation on Smart Communities and the Opportunities of Big Data Given to the International City/County Managers Association
+- 2013-04-30 · [Reimagining Governance in Practice](https://www.thegovlab.org/static/files/publications/Reimagining+Governance+in+Practice+%281%29.pdf) · By GovLab Research · Benchmarking British Columbia’s Citizen Engagement Efforts
 - 2013-04-30 · [Reimagining Governance in Practice](https://www.thegovlab.org/static/files/publications/Reimagining+Governance+in+Practice+(1).pdf) · By GovLab Research · Benchmarking British Columbia’s Citizen Engagement Efforts
 - 2013-03-31 · [The GovLab Compendium](https://www.thegovlab.org/static/files/publications/GovLabCompendium.pdf) · By GovLab Research · GovLab Blog Posts Spring 2013
 - 2013-03-31 · [Toward Metrics for Re(imagining) Governance](https://www.thegovlab.org/static/files/publications/GovLabMetrics.pdf) · By Aleise Barnett, David Dembo, Stefaan G. Verhulst · The Promise and Challenge of Evaluating Innovations in How We Govern
