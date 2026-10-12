@@ -1,6 +1,6 @@
 # Start here: key works, glossary and who's who
 
-55 entries. A way in: for each theme the works to read first, then the terms The GovLab, Reboot Democracy and InnovateUS use, then who they are. Every link is also in the catalog files, which have the full lists. One entry per line: title and link · type and year · why it matters; glossary lines start with the term.
+57 entries. A way in: for each theme the works to read first, then the terms The GovLab, Reboot Democracy and InnovateUS use, then who they are. Every link is also in the catalog files, which have the full lists. One entry per line: title and link · type and year · why it matters; glossary lines start with the term.
 
 ## AI and democracy
 
@@ -48,6 +48,11 @@
 - [Driving Innovation in Government: From Ideas to Scaled Impact](https://innovate-us.org/course/driving-innovation-in-government) · course · Anita McGahan's course for public professionals on taking innovation to scale.
 - [AI for Impact](https://ai4impact.ai/) · programme · Northeastern co-op programme where students build AI tools with government partners.
 
+## Training: InnovateUS workshops and courses
+
+- **Workshops**: workshops.md lists every InnovateUS workshop with its instructors and series. Entries dated after today are upcoming, and registration is on the workshop page; most past workshops have a recording link. The series field groups them, for example The Prompting Lab, AI for Public HR Professionals, AI and Cybersecurity in the Public Sector for the Non-Expert, and Working with AI Agents in the Public Sector.
+- **Courses**: courses.md lists the free self-paced courses; the main ones are under the themes above. Recommend a course or a recorded workshop whenever someone wants to build a skill, not only read about it.
+
 ## Glossary
 
 - **AI Localism**: how cities and local governments govern the use of AI, through their own policies, procurement and oversight. [AI Localism](https://ailocalism.org/), [AI Localism in Practice](https://files.thegovlab.org/ailocalism-in-practice.pdf)
@@ -58,13 +63,13 @@
 - **Data steward**: a person or team in a data-holding organisation whose role is to enable the responsible re-use of its data for the public good. [Wanted Data Stewards](https://www.thegovlab.org/static/files/publications/wanted-data-stewards.pdf)
 - **Data responsibility**: handling data with care for rights and risks at every stage, from planning and collecting to analysing and using it. [Data Responsibility Journey](https://dataresponsibilityjourney.org/)
 - **Digital self-determination**: the idea that people and communities should be able to determine how data about them is used; studied by an international network the GovLab is part of. [International Network on Digital Self-Determination](https://www.idsd.network/)
-- **Third wave of open data**: the GovLab's term for a new phase of open data that focuses on re-using data for public-interest purposes while ensuring data rights and community flourishing. [The Emergence of a Third Wave of Open Data](https://opendatapolicylab.org/images/odpl/third-wave-of-opendata.pdf), [Toolkit](https://files.thegovlab.org/The-Third-Wave-of-Open-Data-Toolkit.pdf)
+- **Third wave of open data**: the GovLab's term for a new phase of open data that focuses on re-using data for public-interest purposes while ensuring data rights and community flourishing. [The Third Wave of Open Data](https://blog.thegovlab.org/the-third-wave-of-open-data), [The Emergence of a Third Wave of Open Data](https://opendatapolicylab.org/images/odpl/third-wave-of-opendata.pdf), [Toolkit](https://files.thegovlab.org/The-Third-Wave-of-Open-Data-Toolkit.pdf)
 - **The 100 Questions**: a method for agreeing, with experts, the questions in a field that data could and should answer. [The 100 Questions Initiative](https://the100questions.org/)
 - **Data Assembly**: a public deliberation that gathers people's views on when and how data may be re-used, first run in New York City for crisis response. [The Data Assembly](https://thedataassembly.org/)
 - **Smarter Crowdsourcing**: convening experts from around the world online to produce recommendations on one defined public problem. [Smarter Crowdsourcing](https://smartercrowdsourcing.org/)
 - **Smarter State**: public institutions making better decisions by tapping the expertise of citizens and civil servants. [The Smarter State Case Studies](https://www.thegovlab.org/smarterstate)
 - **Solving Public Problems**: the GovLab and Burnes Center approach to public problem-solving, from defining the problem to implementing a solution, taught in courses and worksheets. [Solving Public Problems](https://solvingpublicproblems.org/), [worksheets](https://worksheets.solvingpublicproblems.org/)
-- **Selected Readings**: a GovLab blog series of curated readings on one topic; search the govlab-blog files for "Selected Readings".
+- **Selected Readings**: a GovLab blog series of curated readings on one topic; search the govlab-blog files for "Selected Readings". Example: [Selected Readings: The Potential of PeaceTech](https://blog.thegovlab.org/selected-readings-the-potential-of-peacetech)
 - **News That Caught Our Eye / Reboot Weekly**: Reboot Democracy's weekly digest of news on AI, democracy and governance; every edition is in news-digests.md.
 - **Research Radar**: a Reboot Democracy series reviewing new research on AI and government. Example: [The Emperor's New Agents](https://rebootdemocracy.ai/blog/research-radar-the-emperors-new-agents-why-ai-wont-fix-broken-government)
 - **Global AI Watch**: a Reboot Democracy series on how governments around the world use AI. Example: [Listening to Public Servants: What Dubai and New Jersey Teach Us About AI Readiness](https://rebootdemocracy.ai/blog/global-ai-watch-listening-to-public-servants-what-dubai-and-new-jersey-teach-us-about-ai-readiness)
