@@ -29,5 +29,6 @@ A skill for AI assistants that answers questions about AI, democracy, public-sec
 | GovLab blog posts, 2019 onwards | 243 | 2019-01 – 2026-09 | [govlab-blog-2019-onwards.md](govlab-open-corpus/references/govlab-blog-2019-onwards.md) |
 | GovLab blog posts, 2015 to 2018 | 386 | 2015-01 – 2018-12 | [govlab-blog-2015-2018.md](govlab-open-corpus/references/govlab-blog-2015-2018.md) |
 | GovLab blog posts, 2012 to 2014 | 519 | 2012-09 – 2014-12 | [govlab-blog-2012-2014.md](govlab-open-corpus/references/govlab-blog-2012-2014.md) |
+| Start here key works, glossary and who's who | 55 |  | [start-here.md](govlab-open-corpus/references/start-here.md) |
 
 Every entry links to its page and carries a short teaser, usually the one shown on that page. Reboot Democracy and InnovateUS entries update automatically, within the hour, when new articles, workshops and courses are published.

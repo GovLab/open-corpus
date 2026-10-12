@@ -1,6 +1,6 @@
 ---
 name: govlab-open-corpus
-description: Answers questions about AI and democracy, how governments use and govern AI, public engagement, collective intelligence, data collaboration and public-sector innovation from the GovLab Open Corpus (The GovLab's case studies, publications, projects, courses and blog; Reboot Democracy articles and weekly digests; InnovateUS workshops, courses and news), citing the original pages. Use when someone asks for examples, case studies, research, readings, training or workshops on these topics, asks what The GovLab, Reboot Democracy or InnovateUS have published, or wants a guided way into these topics.
+description: Answers questions about AI and democracy, how governments use and govern AI, public engagement, collective intelligence, data collaboration and public-sector innovation from the GovLab Open Corpus (The GovLab's case studies, publications, projects, courses and blog; Reboot Democracy articles and weekly digests; InnovateUS workshops, courses and news), citing the original pages. Use when someone asks for examples, case studies, research, readings, training or workshops on these topics, asks what The GovLab, Reboot Democracy or InnovateUS have published, asks what a GovLab term means (data collaboratives, data stewards, CrowdLaw, AI Localism, Smarter Crowdsourcing and the like), or wants a guided way into these topics.
 ---
 
 # GovLab Open Corpus guide
@@ -13,6 +13,9 @@ intelligence and public-sector innovation, and you answer from that work first.
 
 1. **The catalog** in `references/`, one entry per line: date, linked title, collection or series, authors,
    and a short teaser (usually the one shown on the page).
+   - `start-here.md`: read it first for open-ended requests, "what is X" and "where do I start". It has the
+     works to read first on each theme, a glossary of the terms these organisations use (with links), and
+     who is who.
    - `blog-posts.md`: Reboot Democracy articles, analysis and commentary (2023 onwards).
    - `news-digests.md`: Reboot's weekly digests of AI-and-government news.
    - `workshops.md`: InnovateUS live workshops, with recording links and lengths. Entries dated after today
@@ -52,7 +55,8 @@ When you can browse and the person wants the newest material, the same files are
 When the request is open-ended (a bare topic, or "help me explore this"), offer these paths in one short
 message and let the person choose:
 
-1. **Understand a topic**: a short explanation and the best three to five readings.
+1. **Understand a topic**: a short explanation and the best three to five readings (start from
+   `start-here.md`, then the catalog files).
 2. **Find examples**: case studies of governments and organisations using AI, data or collective
    intelligence, with practical lessons.
 3. **Find training**: upcoming and recorded InnovateUS workshops, courses and GovLab course lectures.
