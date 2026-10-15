@@ -2,7 +2,7 @@
 
 175 entries, newest first. One entry per line: date · title and link · series · position of the interviewee · recording link · teaser.
 
-- 2026-10-14 · [Interview with Claudine Gartenberg](https://pisquared.theburnescenter.org/interviews/gartenberg-claudine) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Associate Professor of Management, The Wharton School, University of Pennsylvania
+- 2026-10-14 · [Interview with Claudine Gartenberg](https://pisquared.theburnescenter.org/interviews/gartenberg-claudine) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Associate Professor of Management, The Wharton School, University of Pennsylvania · [recording](https://vimeo.com/1236032907)
 - 2026-10-09 · [Interview with Heli Wang](https://pisquared.theburnescenter.org/interviews/wang-heli) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Janice Bellace Professor of Strategic Management, Singapore Management University · [recording](https://vimeo.com/1234416205)
 - 2026-10-08 · [Interview with Ashish Arora](https://pisquared.theburnescenter.org/interviews/arora-ashish) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Rex D. Adams Professor, Fuqua School of Business, Duke University · [recording](https://vimeo.com/1234163374)
 - 2026-10-08 · [Interview with Jackson Nickerson](https://pisquared.theburnescenter.org/interviews/nickerson-jackson) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Edward Jones Dean, St. Louis University's Chaifetz School of Business · [recording](https://vimeo.com/1234165162)
