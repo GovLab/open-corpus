@@ -1,7 +1,10 @@
 # GovLab and Burnes Center: lectures and interviews
 
-175 entries, newest first. One entry per line: date · title and link · series · position of the interviewee · recording link · teaser.
+178 entries, newest first. One entry per line: date · title and link · series · position of the interviewee · recording link · teaser.
 
+- 2026-10-19 · [Interview with Michael Barnett](https://pisquared.theburnescenter.org/interviews/barnett-michael) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Professor of Management & Global Business at Rutgers Business School
+- 2026-10-19 · [Interview with Paul Adler](https://pisquared.theburnescenter.org/interviews/adler-paul) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Harold Quinton Chair Emeritus, University of Southern California
+- 2026-10-19 · [Interview with Rebecca Karp](https://pisquared.theburnescenter.org/interviews/karp-rebecca) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Assistant Professor, Harvard Business School
 - 2026-10-14 · [Interview with Claudine Gartenberg](https://pisquared.theburnescenter.org/interviews/gartenberg-claudine) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Associate Professor of Management, The Wharton School, University of Pennsylvania · [recording](https://vimeo.com/1236032907)
 - 2026-10-09 · [Interview with Heli Wang](https://pisquared.theburnescenter.org/interviews/wang-heli) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Janice Bellace Professor of Strategic Management, Singapore Management University · [recording](https://vimeo.com/1234416205)
 - 2026-10-08 · [Interview with Ashish Arora](https://pisquared.theburnescenter.org/interviews/arora-ashish) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Rex D. Adams Professor, Fuqua School of Business, Duke University · [recording](https://vimeo.com/1234163374)
