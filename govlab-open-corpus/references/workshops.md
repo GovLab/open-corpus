@@ -1,6 +1,6 @@
 # InnovateUS: workshops
 
-370 entries, newest first. One entry per line: date · title and link · instructors · series · recording link and length · teaser. Dates after today are upcoming workshops; registration is on the page.
+371 entries, newest first. One entry per line: date · title and link · instructors · series · recording link and length · teaser. Dates after today are upcoming workshops; registration is on the page.
 
 - 2026-12-16 · [Managing AI Risk Across the Organization](https://innovate-us.org/managing-ai-risk-across-the-organization) · I-Sah Hsieh, Stephen N Miller · AI and Cybersecurity in the Public Sector for the Non-Expert · Explore how public agencies can manage AI-related risks through clear governance, staff guidance, escalation processes, and collaboration across technical and nontechnical teams.
 - 2026-12-15 · [Hiring for AI Readiness](https://innovate-us.org/hiring-for-ai-readiness-ai-for-public-hr-professionals) · AI for Public HR Professionals · As AI tools become part of everyday government work, agencies face a new hiring question: how do you evaluate whether a candidate can use AI effectively, ethically, and with good judgment?
@@ -372,3 +372,4 @@
 - [Strengthening Safety: How Transit Professionals Use AI-Enhanced Monitoring and Prevention](https://innovate-us.org/strengthening-safety-how-transit-professionals-use-ai-enhanced-monitoring-and-prevention) · AI and Public Transportation · This session examines how safety professionals use AI-assisted systems to identify risks earlier, respond faster, and monitor conditions—while maintaining human oversight. Participants explore real-world applications, safeguards, and strategies for building public trust and protecting privacy.
 - [Sustaining Accessibility: Governance, Accountability, and Continuous Improvement](https://innovate-us.org/sustaining-accessibility-governance-accountability-and-continuous-improvement) · Using AI for Digital Accessibility · This session explores how agencies can embed accessibility into ongoing digital operations.
 - [Telling the Story: AI-Assisted Data Visualization for Public Audiences](https://innovate-us.org/telling-the-story-ai-assisted-data-visualization-for-public-audiences) · Data Analysis and Visualization with AI · This session focuses on translating analysis into clear, accessible visualizations.
+- [What worries you about AI? I](https://innovate-us.org/what-worries-you-about-ai-i) · What worries you about AI ?
