@@ -1,7 +1,8 @@
 # Reboot Democracy: blog posts
 
-359 entries, newest first. One entry per line: date · title and link · authors · teaser.
+360 entries, newest first. One entry per line: date · title and link · authors · teaser.
 
+- 2026-10-21 · [Boston Globe: Are local governments, like Boston’s, using AI enough?](https://rebootdemocracy.ai/blog/bostonglobeobservatory)
 - 2026-10-20 · [From Curiosity to Capability: What We Learned From Training 250,000 Public Servants on AI](https://rebootdemocracy.ai/blog/public-sector-ai-observatory-curiosity-to-capability) · Lee Rainie, Gregory Porumbescu · Government agencies are buying AI tools, but helping public servants use them well takes more than access. The first report from InnovateUS’ Observatory of Public Sector AI shows where workers need help: understanding how AI fits their jobs, learning to use it, and knowing what’s allowed.
 - 2026-10-19 · [Voters weigh doing their election homework with AI](https://rebootdemocracy.ai/blog/marketplace) · Bonnie McGilpin · Beth Simone Noveck spoke to Marketplace about how voters can use AI to interrogate their own views and deepen civic conversations about the issues on their ballot, not decide for them.
 - 2026-10-06 · [How A.I. Can Be Good for Democracy](https://rebootdemocracy.ai/blog/nyt-opinion-ai-democracy) · Beth Simone Noveck · In a New York Times guest essay, Beth Simone Noveck makes the case for putting A.I. behind every public servant.
