@@ -2,7 +2,7 @@
 
 179 entries, newest first. One entry per line: date · title and link · series · position of the interviewee · recording link · teaser.
 
-- 2026-10-20 · [Interview with Andrew Hoffman](https://pisquared.theburnescenter.org/interviews/hoffman-andy) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Holcim Professor of Sustainable Enterprise, University of Michigan
+- 2026-10-20 · [Interview with Andrew Hoffman](https://pisquared.theburnescenter.org/interviews/hoffman-andy) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Holcim Professor of Sustainable Enterprise, University of Michigan · [recording](https://vimeo.com/1237615656)
 - 2026-10-19 · [Interview with Michael Barnett](https://pisquared.theburnescenter.org/interviews/barnett-michael) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Professor of Management & Global Business at Rutgers Business School · [recording](https://vimeo.com/1237284902)
 - 2026-10-19 · [Interview with Paul Adler](https://pisquared.theburnescenter.org/interviews/adler-paul) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Harold Quinton Chair Emeritus, University of Southern California · [recording](https://vimeo.com/1237347688)
 - 2026-10-19 · [Interview with Rebecca Karp](https://pisquared.theburnescenter.org/interviews/karp-rebecca) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Assistant Professor, Harvard Business School · [recording](https://vimeo.com/1237308805)
