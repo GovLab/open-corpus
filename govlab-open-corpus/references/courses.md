@@ -2,7 +2,7 @@
 
 10 entries. One entry per line: title and link · teaser.
 
-- [AI for Government Procurement](https://innovate-us.org/course/ai-for-public-sector-procurement) · Developed in collaboration with Partners for Public Good with support from the National Association for State Procurement Officials, this course will equip procurement and other public sector professionals with the skills to use Generative AI to improve competitiveness, effectiveness and efficiency…
+- [AI for Government Procurement](https://innovate-us.org/course/ai-for-government-procurement) · Developed in collaboration with Partners for Public Good with support from the National Association for State Procurement Officials, this course will equip procurement and other public sector professionals with the skills to use Generative AI to improve competitiveness, effectiveness and efficiency…
 - [Designing Democratic Engagement with AI](https://innovate-us.org/course/democratic-engagement-for-ai-era) · This free, self-paced course equips you with the skills to design, run and learn from meaningful engagement with communities.
 - [Driving Innovation in Government: From Ideas to Scaled Impact](https://innovate-us.org/course/driving-innovation-in-government) · In this course, Professor Anita McGahan equips public professionals with practical strategies to design, test, and scale innovations—leveraging AI and new technologies and private sector collaboration to improve the public good.
 - [Human-Centered Design](https://innovate-us.org/course/human-centered-design) · Designed by Virginia Hamilton, this course gives participants a substantive overview of the human-centered design framework and offers opportunities to practice applying concepts from the course to your work.
