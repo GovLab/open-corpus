@@ -1,7 +1,8 @@
 # Reboot Democracy: blog posts
 
-362 entries, newest first. One entry per line: date · title and link · authors · teaser.
+363 entries, newest first. One entry per line: date · title and link · authors · teaser.
 
+- 2026-11-03 · [Who Wins Texas? Depends on the Evidence](https://rebootdemocracy.ai/blog/midterm-night-desk) · Elana Banin · David Lazer built an election forecast dashboard with Claude in hours. In Texas, switching from polls to fundamentals flips the favorite. Speed of the build says little about model strength, and the CHIP50 surveys the forecast relies on still take people, money, and time.
 - 2026-10-27 · [Digital Education: What Schools Can Learn from Australia about Using AI](https://rebootdemocracy.ai/blog/what-schools-can-learn-from-australia-ai-education) · Beth Simone Noveck · What does it take to make AI useful in schools? Four Australian states are experimenting with different approaches, from helping teachers build tools that save time to giving students access to chatbots.
 - 2026-10-26 · [What we learned from 250,000 public workers about AI adoption](https://rebootdemocracy.ai/blog/public-sector-ai-observatory-first-report) · Beth Simone Noveck, Gregory Porumbescu, Lee Rainie · At InnovateUS, we have trained more than 250,000 public professionals in AI and innovation skills. Our Observatory of Public Sector AI introductory-course surveys reveal uncertainty about AI’s relevance, use, and rules, alongside encouraging gains in reported knowledge and confidence.
 - 2026-10-22 · [How A.I. Can Be Good for Democracy](https://rebootdemocracy.ai/blog/nyt-opinion-ai-democracy) · Beth Simone Noveck · In a New York Times guest essay, Beth Simone Noveck makes the case for putting A.I. behind every public servant.
