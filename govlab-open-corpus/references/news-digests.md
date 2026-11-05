@@ -1,7 +1,8 @@
 # Reboot Democracy: weekly news digests
 
-117 entries, newest first. One entry per line: date · title and link · teaser.
+118 entries, newest first. One entry per line: date · title and link · teaser.
 
+- 2026-11-05 · [Reboot Weekly Election Edition: When Voters Decide on AI](https://rebootdemocracy.ai/newsthatcaughtoureye/118) · In the 2026 midterms, voters weighed in on AI: an NBC exit poll found 56% called AI and data centers a “crucial or major factor” in their vote for Congress, and $100M+ in AI super PAC money did little to change that.
 - 2026-10-29 · [Reboot Weekly: What 250,000 Public Workers Taught Us About AI](https://rebootdemocracy.ai/newsthatcaughtoureye/117) · After training more than 250,000 government workers through InnovateUS, the first Public Sector AI Observatory report, as featured by Fast Company and the Boston Globe, finds that confidence drives adoption.
 - 2026-10-08 · [Reboot Weekly: Can A.I. Be Good for Democracy?](https://rebootdemocracy.ai/newsthatcaughtoureye/116) · New Jersey’s AI tool reached 106,000 more eligible children for summer food benefits, matching records across programs so no family had to fill out a form.
 - 2026-09-28 · [Reboot Weekly: 46 Blocked Data Centers, NYC's AI Report, and Anthropic's Watchlist](https://rebootdemocracy.ai/newsthatcaughtoureye/115) · At least 46 AI data center projects — more than $170 billion in announced investment — have been blocked, withdrawn, or stalled since 2024 following community opposition.

@@ -16,7 +16,7 @@ A skill for AI assistants that answers questions about AI, democracy, public-sec
 | Source | Entries | Dates | File |
 |---|---:|---|---|
 | Reboot Democracy blog posts | 364 | 2023-06 – 2026-11 | [blog-posts.md](govlab-open-corpus/references/blog-posts.md) |
-| Reboot Democracy weekly news digests | 117 | 2024-01 – 2026-10 | [news-digests.md](govlab-open-corpus/references/news-digests.md) |
+| Reboot Democracy weekly news digests | 118 | 2024-01 – 2026-11 | [news-digests.md](govlab-open-corpus/references/news-digests.md) |
 | InnovateUS workshops | 389 (300 with recordings) | 2021-12 – 2027-03 | [workshops.md](govlab-open-corpus/references/workshops.md) |
 | InnovateUS courses | 10 |  | [courses.md](govlab-open-corpus/references/courses.md) |
 | InnovateUS news, research and resources | 57 | 2023-06 – 2026-10 | [innovateus-articles.md](govlab-open-corpus/references/innovateus-articles.md) |
