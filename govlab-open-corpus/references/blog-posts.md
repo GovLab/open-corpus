@@ -1,7 +1,8 @@
 # Reboot Democracy: blog posts
 
-363 entries, newest first. One entry per line: date · title and link · authors · teaser.
+364 entries, newest first. One entry per line: date · title and link · authors · teaser.
 
+- 2026-11-05 · [Who Decides What Public Money Builds: Democratic and Public AI Becomes Politics](https://rebootdemocracy.ai/blog/who-decides-what-public-money-builds) · Luca Cominassi, Marco Bani · Public money is where Public AI starts, not where it ends. Drawing on Spain, Italy, and the United States, Luca Cominassi and Marco Bani argue that who pays, who controls, and who decides AI’s purpose are political choices Europe should make democratically.
 - 2026-11-03 · [Who Wins Texas? Depends on the Evidence](https://rebootdemocracy.ai/blog/midterm-night-desk) · Elana Banin · Midterm Night Desk, an experimental dashboard David Lazer built with Claude in a couple of hours, lets readers change the evidence behind an election forecast and watch the favorite flip. The tool shows how quickly data can become something people use.
 - 2026-10-27 · [Digital Education: What Schools Can Learn from Australia about Using AI](https://rebootdemocracy.ai/blog/what-schools-can-learn-from-australia-ai-education) · Beth Simone Noveck · What does it take to make AI useful in schools? Four Australian states are experimenting with different approaches, from helping teachers build tools that save time to giving students access to chatbots.
 - 2026-10-26 · [What we learned from 250,000 public workers about AI adoption](https://rebootdemocracy.ai/blog/public-sector-ai-observatory-first-report) · Beth Simone Noveck, Gregory Porumbescu, Lee Rainie · At InnovateUS, we have trained more than 250,000 public professionals in AI and innovation skills. Our Observatory of Public Sector AI introductory-course surveys reveal uncertainty about AI’s relevance, use, and rules, alongside encouraging gains in reported knowledge and confidence.
