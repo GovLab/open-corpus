@@ -1,9 +1,10 @@
 # InnovateUS: courses
 
-9 entries. One entry per line: title and link · teaser.
+10 entries. One entry per line: title and link · teaser.
 
 - [AI for Government Procurement](https://innovate-us.org/course/ai-for-government-procurement) · Developed in collaboration with Partners for Public Good with support from the National Association for State Procurement Officials, this course will equip procurement and other public sector professionals with the skills to use Generative AI to improve competitiveness, effectiveness and efficiency…
 - [Designing Democratic Engagement with AI](https://innovate-us.org/course/democratic-engagement-for-ai-era) · This free, self-paced course equips you with the skills to design, run and learn from meaningful engagement with communities.
+- [Driving Innovation in Government: From Ideas to Scaled Impact](https://innovate-us.org/course/driving-innovation-in-government) · In this course, Professor Anita McGahan equips public professionals with practical strategies to design, test, and scale innovations—leveraging AI and new technologies and private sector collaboration to improve the public good.
 - [Human-Centered Design](https://innovate-us.org/course/human-centered-design) · Designed by Virginia Hamilton, this course gives participants a substantive overview of the human-centered design framework and offers opportunities to practice applying concepts from the course to your work.
 - [Open Justice](https://innovate-us.org/course/open-justice) · Open justice is a growing movement to use new technologies, including big data, digital platforms, blockchain and more, to improve our legal system by making the workings of our legal institutions easier to understand, scrutinize and, we hope, improve.
 - [Responsible AI for Public Organizations](https://innovate-us.org/course/responsible-ai-for-public-organizations) · This two-part course guides public sector professionals through building impactful, responsible AI initiatives. Learn to align AI with agency goals, manage risks, and develop necessary skills. Free, self-paced, and open to all interested in using AI to transform government work.
