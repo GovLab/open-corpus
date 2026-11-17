@@ -1,7 +1,8 @@
 # Reboot Democracy: blog posts
 
-364 entries, newest first. One entry per line: date · title and link · authors · teaser.
+365 entries, newest first. One entry per line: date · title and link · authors · teaser.
 
+- 2026-11-17 · [What Aren’t We Talking About When We Talk About AI?](https://rebootdemocracy.ai/blog/what-arent-we-talking-about) · Lee Rainie, Brian Baird · As public anxiety about AI grows, public servants feel it too. This December, Brian Baird and Lee Rainie will host three InnovateUS conversations on how people are coping with AI psychologically, shaped by what registrants say worries them and gives them hope.
 - 2026-11-05 · [Who Decides What Public Money Builds: Democratic and Public AI Becomes Politics](https://rebootdemocracy.ai/blog/who-decides-what-public-money-builds) · Luca Cominassi, Marco Bani · Public money is where Public AI starts, not where it ends. Drawing on Spain, Italy, and the United States, Luca Cominassi and Marco Bani argue that who pays, who controls, and who decides AI’s purpose are political choices Europe should make democratically.
 - 2026-11-03 · [Who Wins Texas? Depends on the Evidence](https://rebootdemocracy.ai/blog/midterm-night-desk) · Elana Banin · Midterm Night Desk, an experimental dashboard David Lazer built with Claude in a couple of hours, lets readers change the evidence behind an election forecast and watch the favorite flip. The tool shows how quickly data can become something people use.
 - 2026-10-27 · [Digital Education: What Schools Can Learn from Australia about Using AI](https://rebootdemocracy.ai/blog/what-schools-can-learn-from-australia-ai-education) · Beth Simone Noveck · What does it take to make AI useful in schools? Four Australian states are experimenting with different approaches, from helping teachers build tools that save time to giving students access to chatbots.
