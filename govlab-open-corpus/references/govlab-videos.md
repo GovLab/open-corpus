@@ -1,7 +1,9 @@
 # GovLab and Burnes Center: lectures and interviews
 
-180 entries, newest first. One entry per line: date · title and link · series · position of the interviewee · recording link · teaser.
+182 entries, newest first. One entry per line: date · title and link · series · position of the interviewee · recording link · teaser.
 
+- 2026-11-23 · [Interview with Anthea Zhang](https://pisquared.theburnescenter.org/interviews/zhang-anthea) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Professor and the Fayez Sarofim Vanguard Chair of Strategic Management, Rice University
+- 2026-11-23 · [Interview with Juan Alcacer](https://pisquared.theburnescenter.org/interviews/alcacer-juan) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · James J. Hill Professor of Business Administration, Harvard Business School
 - 2026-11-23 · [Interview with Rebecca Henderson](https://pisquared.theburnescenter.org/interviews/henderson-rebecca) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · John and Natty McArthur University Professor, Harvard Business School
 - 2026-10-20 · [Interview with Andrew Hoffman](https://pisquared.theburnescenter.org/interviews/hoffman-andy) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Holcim Professor of Sustainable Enterprise, University of Michigan · [recording](https://vimeo.com/1237615656)
 - 2026-10-19 · [Interview with Michael Barnett](https://pisquared.theburnescenter.org/interviews/barnett-michael) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Professor of Management & Global Business at Rutgers Business School · [recording](https://vimeo.com/1237284902)
