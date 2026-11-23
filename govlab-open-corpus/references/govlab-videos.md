@@ -1,9 +1,12 @@
 # GovLab and Burnes Center: lectures and interviews
 
-182 entries, newest first. One entry per line: date · title and link · series · position of the interviewee · recording link · teaser.
+185 entries, newest first. One entry per line: date · title and link · series · position of the interviewee · recording link · teaser.
 
+- 2026-11-24 · [Interview with Francisco Polidoro Jr.](https://pisquared.theburnescenter.org/interviews/polidoro-francisco) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Professor of Management, University of Texas at Austin
+- 2026-11-24 · [Interview with Henry Sauermann](https://pisquared.theburnescenter.org/interviews/sauermann-henry) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Professor of Strategy and the TEAM GLOBAL Chair for Disruptive Innovation, ESMT Berlin
 - 2026-11-23 · [Interview with Anthea Zhang](https://pisquared.theburnescenter.org/interviews/zhang-anthea) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Professor and the Fayez Sarofim Vanguard Chair of Strategic Management, Rice University
 - 2026-11-23 · [Interview with Juan Alcacer](https://pisquared.theburnescenter.org/interviews/alcacer-juan) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · James J. Hill Professor of Business Administration, Harvard Business School
+- 2026-11-23 · [Interview with Ram Ranganathan](https://pisquared.theburnescenter.org/interviews/ranganathan-ram) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Associate Professor, McCombs School of Business, University of Texas
 - 2026-11-23 · [Interview with Rebecca Henderson](https://pisquared.theburnescenter.org/interviews/henderson-rebecca) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · John and Natty McArthur University Professor, Harvard Business School
 - 2026-10-20 · [Interview with Andrew Hoffman](https://pisquared.theburnescenter.org/interviews/hoffman-andy) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Holcim Professor of Sustainable Enterprise, University of Michigan · [recording](https://vimeo.com/1237615656)
 - 2026-10-19 · [Interview with Michael Barnett](https://pisquared.theburnescenter.org/interviews/barnett-michael) · Pi-Squared: Private Innovation in the Public Interest (Anita McGahan, Burnes Center) · Professor of Management & Global Business at Rutgers Business School · [recording](https://vimeo.com/1237284902)
